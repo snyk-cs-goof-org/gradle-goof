@@ -37,7 +37,7 @@ metadata:
     endoflife.date/products: nodejs
 spec:
   type: service
-  owner: group:snyk-cs-goof-org/cs-goof-back-end
+  owner: group:snyk-cs-goof-org/salesOps
   lifecycle: production
   system: sample-system
   providesApis:
@@ -72,7 +72,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: group:snyk-cs-goof/salesOps
+  owner: group:snyk-cs-goof-org/salesOps
   system: sample-system
   definition:
     $text: https://github.com/snyk-cs-goof/gradle-goof/blob/main/api-spec.yaml
@@ -112,7 +112,7 @@ metadata:
   name: sample-domain
   description: Sample domain which has stuff for demoing.
 spec:
-  owner: group:snyk-cs-goof/salesOps
+  owner: group:snyk-cs-goof-org/salesOps
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -122,5 +122,5 @@ metadata:
   name: GradleGoof
   description: Gradle Goof Service
 spec:
-  owner: group:snyk-cs-goof/salesOps
+  owner: group:snyk-cs-goof-org/salesOps
   domain: sample-domain
